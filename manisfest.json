@@ -1,0 +1,16 @@
+{
+  "name": "Cynosure Studio Calculator",
+  "short_name": "Cynosure Rates",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1B365D",
+  "theme_color": "#1B365D",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "200x200",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
