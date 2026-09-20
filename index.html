@@ -10,6 +10,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Cynosure Rates">
+<link rel="manifest" href="manifest.json">
 
 <style>
   :root {
@@ -602,6 +603,13 @@ function calculate() {
 }
 
 calculate();
+
+// Register Service Worker for 100% Offline Support
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
 </script>
 
 </body>
