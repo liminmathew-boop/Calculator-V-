@@ -1,9 +1,9 @@
-const CACHE_NAME = 'cynosure-calc-v10';
+const CACHE_NAME = 'cynosure-calc-v12';
 const ASSETS = [
   './',
-  'index.html',
-  'icon.png',
-  'manifest.json'
+  './index.html',
+  './icon.png',
+  './manifest.json'
 ];
 
 self.addEventListener('install', (e) => {
