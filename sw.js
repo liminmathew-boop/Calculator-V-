@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cynosure-calc-v4';
+const CACHE_NAME = 'cynosure-calc-v5';
 const ASSETS = [
   './',
   './index.html',
