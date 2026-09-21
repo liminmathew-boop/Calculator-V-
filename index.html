@@ -566,7 +566,7 @@ function calculate() {
     // Up to 12x15 (area <= 180): 50%
     // Beyond 12x15 (area > 180): 30%
     const area = w * h;
-    const prodPct = area <= 180 ? 0.50 : 0.30;
+    const prodPct = area <= 180 ? 1.0 : 0.50;
 
     let prodCharge = addProd ? Math.round(baseFrame * prodPct) : 0;
     
